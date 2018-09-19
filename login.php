@@ -4,12 +4,14 @@
         <div class="col-md-6">
             <form action="login.php" id="login">
                 <fieldset>
-                        <legend>Já sou cadastrado</legend>
-                        <input type="email" name="email" id="email" placeholder="email" class="form-control" required>
-                        <input type="password" name="password" id="password" placeholder="senha" class="form-control" required>
-                        <button type="submit" class="btn btn-primary">Entrar</button>
-                        <br>
-                        <a href="#">esqueci minha senha</a>
+                    <legend>Já sou cadastrado</legend>
+                    <input type="email" name="email" id="email" placeholder="email" class="form-control" required>
+                    <input type="password" name="password" id="password" placeholder="senha" class="form-control" required>
+                    <input type="checkbox" name="lembrar-usuario" id="lembrar-usuario"><label for="lembrar-usuario">Lembrar-me</label>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                    <br>
+                    <a href="#">esqueci minha senha</a>
                 </fieldset>
             </form>
         </div>
@@ -20,7 +22,7 @@
                     <div class="input-group">
                         <input type="email" name="email" id="email" placeholder="digite o email que deseja cadastrar" class="form-control" required>
                         <span class="input-group-btn">
-                            <button type="submit" class="btn btn-secondary">Entrar</button>
+                            <button type="submit" class="btn btn-secondary">Cadastrar</button>
                         </span>
                         </div><!-- /input-group -->
                 </fieldset>

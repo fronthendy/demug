@@ -29,6 +29,7 @@
     border: none;
     margin: 16px 0;
 }
+
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
     background-color: transparent !important;
     border: none;
@@ -106,19 +107,20 @@ form input[type='radio']~label{
     color: #fff;
 }
 
- .palette{
-     margin: 50px auto;
- }
- .palette>div{
+.palette{
+    margin: 50px auto;
+}
+.palette>div{
     padding: 40px;
     color: #fff;
     margin: 5px;
     display: inline-block;
- }
- .screen{background-color: #C5C1C0;}
- .steel{background-color: #0A1612;}
- .denim{background-color: #1A2930;} 
- .marigold{background-color: #F7CE3E;}
+}
+
+.screen{background-color: #C5C1C0;}
+.steel{background-color: #0A1612;}
+.denim{background-color: #1A2930;} 
+.marigold{background-color: #F7CE3E;}
 
 .navbar{
     background-color: #1A2930;
@@ -155,27 +157,38 @@ form input[type='radio']~label{
 }
 .produtos .item{
     text-align: center;
-    margin: 20px 0;
+    margin: 15px;
 }
 .produtos .img-produto{
-    height: 250px;
-    margin: 10px 20px;
+    position: relative;
+    width: 100%;
     background-position: center;
     background-size: cover; 
     transition: .02s;
+    margin: 10px;
+    display: inline-block;
+    overflow: hidden;
 }
 
-.produtos .img-produto> a.btn-comprar{
+.produtos .img-produto img:hover{
+    transform: scale(1.1);
+}
+
+.produtos .overlay{
+    bottom: 30px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.produtos .img-produto a.btn-comprar{
     padding: 5px 20px;
     background-color: #1A2930;
-    top: 80%;
-    position: relative;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 18px;
-    box-shadow: 1px 1px 15px  rgba(0,0,0,0.4);
+    box-shadow: 1px 1px 25px  rgba(255, 255, 255, 0.9);
 }
 .produtos .img-produto> a.btn-comprar:hover{
     background-color: #F7CE3E;
@@ -254,10 +267,15 @@ footer .btn-submit:focus{
 #login, #pre-cadastro{
     margin: 50px auto;
 }
+#login input[type='checkbox']~label{
+    font-weight: normal;
+    vertical-align: top;
+    margin-left: 5px;
+}
 
 #login a{
     display: inline-block;
-    color: #0A1612;
+    color: #555555ab;
 }
 #login button{
     margin: 10px 0;
@@ -278,4 +296,31 @@ form#pre-cadastro input.form-control{
     font-size: 23px;
     color: #c5c1c0;
     margin: 19px 10px;
+}
+
+section.search{
+    background-color: #f2f2f2;
+    padding: 20px 0;   
+}
+
+section.search .input-group{
+    border: 2px solid #fff;
+}
+section.search .input-group input{
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    height: 46px;
+    font-size: 25px;
+    margin: 0;
+    color: #555;
+}
+
+section.search .input-group .input-group-btn button{
+    background-color: transparent;
+    border: 0;
+    padding: 6px 32px;
+    box-shadow: none;
+    font-size: 25px;
+    color: #fff;
 }

@@ -22,10 +22,32 @@
     padding: 70px 0 0;
  }
  h1, h2, h3, h4{
-     text-transform: uppercase;
-     padding: 10px 0;
- }
- form legend{
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.navbar-default .navbar-toggle {
+    border: none;
+    margin: 16px 0;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: transparent !important;
+    border: none;
+}
+.navbar-default .navbar-toggle:focus .icon-bar, 
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #f4dd83;
+
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 32px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 8px;
+}
+form legend{
     text-transform: uppercase;
     /* border: none; */
 }
@@ -123,6 +145,7 @@ form input[type='radio']~label{
 #hero-slide .item{
     width: 100%;
     height: 550px;
+    max-height: 60vh;
     background-position: center;
     background-size: cover;
 }
@@ -135,7 +158,6 @@ form input[type='radio']~label{
     margin: 20px 0;
 }
 .produtos .img-produto{
-    width: 100%;
     height: 250px;
     margin: 10px 20px;
     background-position: center;
@@ -241,7 +263,7 @@ footer .btn-submit:focus{
     margin: 10px 0;
 }
 form#pre-cadastro .input-group{
-    margin: 15px 0;
+    margin: 10px 0;
 }
 form#pre-cadastro input.form-control{
     margin: 0;
@@ -249,4 +271,11 @@ form#pre-cadastro input.form-control{
 
 #accordion-faq{
     margin: 50px 0 100px;
+}
+
+.cart-mobile{
+    float: right;
+    font-size: 23px;
+    color: #c5c1c0;
+    margin: 19px 10px;
 }

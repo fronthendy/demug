@@ -19,6 +19,9 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+        <a href="cart.php" class="visible-xs cart-mobile">
+          <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+        </a>
         <a class="navbar-brand" href="index.php">
           <img src="img/demug-logo-yellow.png" alt="">
         </a>
@@ -31,7 +34,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="login.php">Login</a></li>
-          <li><a href="cart.php">
+          <li class="hidden-xs"><a href="cart.php">
           <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
         </a></li>
         </ul>

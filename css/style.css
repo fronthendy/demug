@@ -1,0 +1,252 @@
+/*
+    screen: #C5C1C0
+    steel: #0A1612
+    denim: #1A2930 
+    marigold: #F7CE3E
+*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800');
+ *{
+     box-sizing: border-box;
+     transition: 0.1s;
+ }
+ b{
+     font-weight: 500;
+ }
+ a:hover{
+     text-decoration: none;
+     color: inherit;
+ }
+ body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 70px 0 0;
+ }
+ h1, h2, h3, h4{
+     text-transform: uppercase;
+     padding: 10px 0;
+ }
+ form legend{
+    text-transform: uppercase;
+    /* border: none; */
+}
+form input.form-control,
+form select.form-control{
+    margin: 10px 0;
+    border-radius: 0;
+    display: inline-block;
+}
+form input.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: #1A2930;
+}
+form input[type="date"]{
+    margin: 5px 0 10px;
+}
+form label[for="data-nascimento"],
+form label[for="sexo"]{
+    font-weight: normal;
+}
+form input[type='radio']{
+    margin: 10px 0;
+}
+form input[type='radio']~label{
+    font-weight: normal;
+    vertical-align: top;
+    margin: 5px 20px 0 5px;
+}
+.btn-primary{
+    background-color: #F7CE3E;
+    color: #0A1612;
+    border-radius: 0;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 7px 20px;
+}
+.btn-primary:hover{
+    background-color: rgb(207, 165, 14);
+}
+
+.btn-secondary{
+    background-color: #1A2930;
+    color: #fff;
+    border-radius: 0;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 7px 20px;
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active{
+    background-color: #0A1612;
+    color: #fff;
+}
+
+ .palette{
+     margin: 50px auto;
+ }
+ .palette>div{
+    padding: 40px;
+    color: #fff;
+    margin: 5px;
+    display: inline-block;
+ }
+ .screen{background-color: #C5C1C0;}
+ .steel{background-color: #0A1612;}
+ .denim{background-color: #1A2930;} 
+ .marigold{background-color: #F7CE3E;}
+
+.navbar{
+    background-color: #1A2930;
+    border-color: #1A2930;
+    min-height: 70px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #C5C1C0;
+    text-transform: uppercase;
+    padding: 25px 15px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #F7CE3E;
+}
+.navbar .navbar-brand{
+    height: 70px;
+    padding: 8px;
+}
+.navbar .navbar-brand img{
+    height: 100%;
+    -webkit-filter: contrast(85%) brightness(110%) saturate(75%) sepia(22%);
+    filter: contrast(85%) brightness(110%) saturate(75%) sepia(22%);
+}
+#hero-slide .item{
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+
+.produtos{
+    margin-bottom: 100px;
+}
+.produtos .item{
+    text-align: center;
+    margin: 20px 0;
+}
+.produtos .img-produto{
+    width: 100%;
+    height: 250px;
+    margin: 10px 20px;
+    background-position: center;
+    background-size: cover; 
+    transition: .02s;
+}
+
+.produtos .img-produto> a.btn-comprar{
+    padding: 5px 20px;
+    background-color: #1A2930;
+    top: 80%;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    box-shadow: 1px 1px 15px  rgba(0,0,0,0.4);
+}
+.produtos .img-produto> a.btn-comprar:hover{
+    background-color: #F7CE3E;
+}
+.produtos .nome-produto{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 5px 0;
+    color: #1A2930;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+}
+.produtos .nome-produto:hover{
+    color: #F7CE3E;
+}
+
+.produtos .preco-produto{
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: #F7CE3E;
+}
+
+section.produtos{
+    text-align: center;
+}
+
+footer{
+    background-color: #1A2930;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer img.logo{
+    width: 200px;
+    float: right;
+}
+.list-unstyled{
+    list-style: none;
+    padding-left: 0;
+}
+footer a, footer li{
+    color: #fff;
+}
+footer .input-group{
+    border-bottom: 1px solid #F7CE3E;
+}
+footer form label{
+    font-weight: normal;
+    padding: 5px 0 0; 
+}
+footer input.form-control:focus, 
+footer input.form-control{
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    padding-left: 0;
+    color: #fff;
+}
+footer .btn-submit{
+    padding: 10px 0 0 20px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+footer .btn-submit:hover, 
+footer .btn-submit:active,
+footer .btn-submit:focus{
+    background-color: transparent;
+    border: none;
+    color: #F7CE3E;
+    outline: none !important;
+}
+
+#login, #pre-cadastro{
+    margin: 50px auto;
+}
+
+#login a{
+    display: inline-block;
+    color: #0A1612;
+}
+#login button{
+    margin: 10px 0;
+}
+form#pre-cadastro .input-group{
+    margin: 15px 0;
+}
+form#pre-cadastro input.form-control{
+    margin: 0;
+}
+
+#accordion-faq{
+    margin: 50px 0 100px;
+}

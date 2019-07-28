@@ -30,7 +30,7 @@
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li><a href="categoria.php">Canecas</a></li>
-          <li><a href="categoria.php">Adesivos</a></li>
+          <li><a href="categoria.php">Squeeze</a></li>
           <li><a href="categoria.php">Quadros</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">

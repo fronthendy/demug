@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<section class="search">
+<!-- <section class="search">
     <div class="container">
         <form action="search.php">
             <div class="input-group">
@@ -13,19 +13,23 @@
             </div>
         </form>
     </div>
-</section>
-<!-- <div id="hero-slide" class="carousel slide" data-ride="carousel">
+</section> -->
+<section class="banner">
+    <div class="container">
+    <div id="hero-slide" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-    <div class="item active" style="background-image: url('img/slide-1.jpg');"></div>
-    <div class="item" style="background-image: url('img/slide-2.jpg');"></div>
+    <div class="item active" style="background-image: url('img/banner_2.png');"></div>
+    <!-- <div class="item" style="background-image: url('img/banner_2.jpg');"></div> -->
     </div>
-</div> -->
+</div>
+    </div>
+</section>
 <section class="produtos">
     <div class="container">
         <div class="col-xs-12">
             <h2>Produtos em destaque</h2>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="item">
                 <div class="img-produto" title="Caneca Girl Coffee">
                     <img src="img/caneca-1.jpg" alt="Caneca Girl Coffee" class="img-responsive">
@@ -35,7 +39,7 @@
                 <span class="preco-produto">R$44,00</span>
             </div>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="item">
                 <div class="img-produto" title="Caneca Girl Coffee">
                     <img src="img/caneca-2.jpg" alt="Caneca Girl Coffee" class="img-responsive">
@@ -45,7 +49,7 @@
                 <span class="preco-produto">R$44,00</span>
             </div>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="item">
                 <div class="img-produto" title="Caneca Girl Coffee">
                     <img src="img/caneca-3.jpg" alt="Caneca Girl Coffee" class="img-responsive">
@@ -55,7 +59,7 @@
                 <span class="preco-produto">R$44,00</span>
             </div>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="item">
                 <div class="img-produto" title="Caneca Girl Coffee">
                     <img src="img/caneca-4.jpg" alt="Caneca Girl Coffee" class="img-responsive">
@@ -65,7 +69,7 @@
                 <span class="preco-produto">R$44,00</span>
             </div>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="item">
                 <div class="img-produto" title="Caneca Girl Coffee">
                     <img src="img/caneca-5.jpg" alt="Caneca Girl Coffee" class="img-responsive">
@@ -75,7 +79,7 @@
                 <span class="preco-produto">R$44,00</span>
             </div>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="item">
                 <div class="img-produto" title="Caneca Girl Coffee">
                     <img src="img/caneca-6.jpg" alt="Caneca Girl Coffee" class="img-responsive">
@@ -85,7 +89,7 @@
                 <span class="preco-produto">R$44,00</span>
             </div>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="item">
                 <div class="img-produto" title="Caneca Girl Coffee">
                     <img src="img/caneca-1.jpg" alt="Caneca Girl Coffee" class="img-responsive">
@@ -95,7 +99,7 @@
                 <span class="preco-produto">R$44,00</span>
             </div>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
             <div class="item">
                 <div class="img-produto" title="Caneca Girl Coffee">
                     <img src="img/caneca-5.jpg" alt="Caneca Girl Coffee" class="img-responsive">
